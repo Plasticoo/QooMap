@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="맵핵">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="맵핵\날씨">
+      <UniqueIdentifier>{6bc14d1b-c17f-4e03-963b-c55915edd94d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="맵핵\아이템">
+      <UniqueIdentifier>{1a27b956-6d07-45be-8451-b13a58f71ac6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="맵핵\중요 파일">
+      <UniqueIdentifier>{0abd99b7-b06e-46e1-b3fd-fc773eafcb10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="맵핵\화면">
+      <UniqueIdentifier>{86ba7686-945d-44c9-85de-3c7e66d7242f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Weather.h">
+      <Filter>맵핵\날씨</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemPatch.h">
+      <Filter>맵핵\아이템</Filter>
+    </ClInclude>
+    <ClInclude Include="Patch.h">
+      <Filter>맵핵\중요 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Offset.h">
+      <Filter>맵핵\중요 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="D2Structs.h">
+      <Filter>맵핵\중요 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenHooks.h">
+      <Filter>맵핵\화면</Filter>
+    </ClInclude>
+    <ClInclude Include="Maphack.h">
+      <Filter>맵핵\화면</Filter>
+    </ClInclude>
+    <ClInclude Include="D2State.h">
+      <Filter>맵핵\중요 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Automap.h">
+      <Filter>맵핵\화면</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>맵핵\중요 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayEx.h">
+      <Filter>맵핵\중요 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SyncObj.h">
+      <Filter>맵핵\중요 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>맵핵\중요 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BuyAction_Info.h">
+      <Filter>맵핵\화면</Filter>
+    </ClInclude>
+    <ClInclude Include="EnteringLevelText.h">
+      <Filter>맵핵\화면</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Weather.cpp">
+      <Filter>맵핵\날씨</Filter>
+    </ClCompile>
+    <ClCompile Include="Offset.cpp">
+      <Filter>맵핵\중요 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemPatch.cpp">
+      <Filter>맵핵\아이템</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenHooks.cpp">
+      <Filter>맵핵\화면</Filter>
+    </ClCompile>
+    <ClCompile Include="Maphack.cpp">
+      <Filter>맵핵\화면</Filter>
+    </ClCompile>
+    <ClCompile Include="D2State.cpp">
+      <Filter>맵핵\중요 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoMap.cpp">
+      <Filter>맵핵\화면</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>맵핵\화면</Filter>
+    </ClCompile>
+    <ClCompile Include="DllMain.cpp">
+      <Filter>맵핵</Filter>
+    </ClCompile>
+    <ClCompile Include="BuyAction_Info.cpp">
+      <Filter>맵핵\화면</Filter>
+    </ClCompile>
+    <ClCompile Include="EnteringLevelText.cpp">
+      <Filter>맵핵\화면</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

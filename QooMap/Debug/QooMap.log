@@ -1,0 +1,43 @@
+﻿빌드 시작: 2014-06-18 오후 11:46:09
+     1>2 노드의 "F:\작업\Maphack 1.13c\QooMap\QooMap.vcxproj" 프로젝트(rebuild 대상)입니다.
+     1>_PrepareForClean:
+         "Debug\QooMap.lastbuildstate" 파일을 삭제하고 있습니다.
+       InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\QooMap.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gr /TP /analyze- /errorReport:prompt AutoMap.cpp BuyAction_Info.cpp D2State.cpp DllMain.cpp EnteringLevelText.cpp ItemPatch.cpp Maphack.cpp Offset.cpp ScreenHooks.cpp Vector.cpp Weather.cpp
+         Weather.cpp
+         Vector.cpp
+         ScreenHooks.cpp
+         Offset.cpp
+         Maphack.cpp
+         ItemPatch.cpp
+         EnteringLevelText.cpp
+         DllMain.cpp
+         D2State.cpp
+         BuyAction_Info.cpp
+         AutoMap.cpp
+         코드를 생성하고 있습니다...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\작업\Maphack 1.13c\Debug\QooMap.dll" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\QooMap.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\작업\Maphack 1.13c\Debug\QooMap.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\작업\Maphack 1.13c\Debug\QooMap.lib" /MACHINE:X86 /DLL Debug\AutoMap.obj
+         Debug\BuyAction_Info.obj
+         Debug\D2State.obj
+         Debug\DllMain.obj
+         Debug\EnteringLevelText.obj
+         Debug\ItemPatch.obj
+         Debug\Maphack.obj
+         Debug\Offset.obj
+         Debug\ScreenHooks.obj
+         Debug\Vector.obj
+         Debug\Weather.obj
+         QooMap.vcxproj -> F:\작업\Maphack 1.13c\Debug\QooMap.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\작업\Maphack 1.13c\Debug\QooMap.dll;#2" /manifest Debug\QooMap.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         "Debug\QooMap.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug\QooMap.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"F:\작업\Maphack 1.13c\QooMap\QooMap.vcxproj" 프로젝트를 빌드했습니다(rebuild 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:10.40
